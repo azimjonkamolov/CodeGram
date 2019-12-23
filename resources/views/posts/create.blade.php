@@ -21,9 +21,7 @@
                         value = "{{ old('caption') }}" autocomplete="caption" autofocus> 
 
                         @if($errors->has('caption'))
-                            <span class="invalid-feedback" role="alert">
                                 <strong>{{$errors->first('caption')}}</strong>
-                            </span>
                         @endif
                         </div>
 
@@ -32,9 +30,7 @@
                         <input type="file" class="form-control-file" id="image" name="image">
 
                         @if($errors->has('image'))
-                            <span class="invalid-feedback" role="alert">
                                 <strong>{{$errors->first('image')}}</strong>
-                            </span>
                         @endif
 
                     </div>
