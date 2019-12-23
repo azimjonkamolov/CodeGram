@@ -13,9 +13,9 @@
                 <div class="pr-5"><strong>23</strong> followers</div>
                 <div class="pr-5"><strong>212</strong> following</div>
             </div>
-            <div class="pt-4 font-weight-bold">CodeGram</div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laboriosam quidem recusandae, soluta deserunt rem nisi accusamus dolorum error, corporis iusto vel similique. In deleniti recusandae quisquam dignissimos aspernatur! Explicabo!</div>
-            <div><a href="#">www.CodeGram.com</a></div>
+            <div class="pt-4 font-weight-bold">{{$user->profile->title}}</div>
+            <div>{{$user->profile->description}}</div>
+            <div><a href="#">{{$user->profile->url}}</a></a></div>
         </div>
     </div>
     <div class="row pt-4">
