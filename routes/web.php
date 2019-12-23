@@ -19,7 +19,6 @@ Auth::routes();
 
 <<<<<<< HEAD
 Route::get('/p/create', 'PostsController@create');
-Route::post('/p', 'PostsController@store');
 
 =======
 >>>>>>> parent of fbef892... p/create frontend it done
