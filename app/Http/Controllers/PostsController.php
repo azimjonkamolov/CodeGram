@@ -15,7 +15,7 @@ class PostsController extends Controller
     {
         $data = request()->validate([
             'caption' => 'required',
-            'image' => ['required', 'image'], 
+            'image' => 'required' 
         ]);
 
         auth()->user()->posts()->create($data);
